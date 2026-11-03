@@ -12,6 +12,9 @@
 - (NSMutableArray *)loadSpecifiersFromPlistName:(NSString *)name target:(PSListController *)target;
 - (NSMutableArray *)loadSpecifiersFromPlistName:(NSString *)name target:(PSListController *)target bundle:(NSBundle *)bundle;
 
+// Private keyboard callback used by preference-controller subclasses.
+- (void)_returnKeyPressed:(id)notification;
+
 - (Class)tableViewClass;
 - (UITableViewStyle)tableViewStyle;
 

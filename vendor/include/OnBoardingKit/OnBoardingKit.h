@@ -4,3 +4,4 @@
 #import <OnBoardingKit/OBPrivacyLinkButton.h>
 #import <OnBoardingKit/OBTrayButton.h>
 #import <OnBoardingKit/OBWelcomeController.h>
+#import <OnBoardingKit/OBBulletedList.h>
